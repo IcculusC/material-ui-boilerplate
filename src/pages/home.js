@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
+import Link from 'react-router-dom/Link';
 
 const styles = {
   center: {
@@ -51,12 +52,12 @@ const Home = ({classes}) => (
 
       <div className={classes.center} >
         <div className={classes.circle} >
-          <a
+          <Link
             className={classes.gettingStartedLink}
-            href="https://fusionjs.com/docs/getting-started"
+            to="/"
           >
             Let&apos;s Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </div>
