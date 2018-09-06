@@ -1,0 +1,30 @@
+{
+  "name": "example-fusion-app",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "@material-ui/icons": "^3.0.1",
+    "fusion-cli": "^1.9.0",
+    "fusion-core": "^1.5.0",
+    "fusion-plugin-material-ui": "^0.1.1",
+    "fusion-plugin-react-helmet-async": "^1.0.0",
+    "fusion-plugin-react-router": "^1.2.0",
+    "fusion-react": "^1.2.0",
+    "fusion-tokens": "^1.0.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styletron-react": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "fusion dev",
+    "test": "fusion test",
+    "build": "fusion build",
+    "build-production": "fusion build --production",
+    "start": "fusion start"
+  },
+  "devDependencies": {
+    "enzyme": "^3.4.4"
+  }
+}
