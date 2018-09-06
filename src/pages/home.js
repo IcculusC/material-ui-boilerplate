@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
+import {Translate} from 'fusion-plugin-i18n-react';
 import Link from 'react-router-dom/Link';
 
 const styles = {
@@ -56,7 +57,7 @@ const Home = ({classes}) => (
             className={classes.gettingStartedLink}
             to="/"
           >
-            Let&apos;s Get Started
+            <Translate id="LetsGetStarted" />
           </Link>
         </div>
       </div>

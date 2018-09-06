@@ -3,16 +3,23 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
+    "connected-react-router": "^4.4.1",
     "fusion-cli": "^1.10.1",
     "fusion-core": "^1.5.1",
+    "fusion-plugin-connected-react-router": "^1.0.1",
+    "fusion-plugin-i18n-react": "^1.0.4",
     "fusion-plugin-material-ui": "^0.1.1",
     "fusion-plugin-react-helmet-async": "^1.0.0",
+    "fusion-plugin-react-redux": "^1.0.9",
     "fusion-plugin-react-router": "^1.3.0",
     "fusion-react": "^1.2.2",
     "fusion-tokens": "^1.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "unfetch": "^3.1.1"
   },
   "scripts": {
     "dev": "fusion dev",
